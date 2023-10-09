@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    letter-spacing: 0.07rem;
+}
+
+
+
+
+
+
+.swiper-pagination-bullet {
+    background-color: #fff;
+    border: none;
+    opacity: 1;
+    display: inline-flex;
+    align-items: center;
+    height: 0.5rem;
+    border: 3px solid #fff;
+    transition: all ease-in-out 0.3s;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: white;
+    border: 2px solid #23d5fc;
+    transform: scale(1.5);
+}
